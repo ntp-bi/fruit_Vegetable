@@ -1,0 +1,145 @@
+@media(max-width: 1080px) {
+    header{
+        padding: 18px 60px;
+    }
+    .home-text {
+        padding: 0 100px;
+    }
+    .container img {
+        right: 100px;
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        padding: 18px 4px;
+    }
+    section {
+        padding: 50px 4%;
+    }
+    .home-text{
+        padding: 0 5%;
+    }
+    .home-text h1{
+        font-size: 2rem;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        margin: 0;
+    }
+}
+@media(max-width: 852px){
+    header{
+        padding: 12px 4%;
+    }
+    #menu-icon {
+        display: inherit;
+    }
+    .navbar {
+        position: absolute;
+        top: -570px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        box-shadow: 4px 4px 0 4px rgba(14 55 54 / 15%);
+        transition: 0.2s all linear;
+        text-align: left;
+    }
+    .navbar a {
+        padding: 1rem;
+        margin: 1rem;
+        display: block;
+    }
+    .navbar a:hover, .navbar .home-active {
+        border-radius: 00.5rem;
+        color: var(--bg-color);
+    }
+    .navbar.active{
+        top: 100%;
+    }
+    .home-text h1{
+        font-size: 1.7rem;
+    }
+    .home-text img{
+        width: 390px;
+    }
+    .btn {
+        padding: 0.6rem 1.2rem;
+    }
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(244px,auto));
+    }
+}
+
+@media(max-width: 712px){
+    .container img{
+        right: 20px;
+    }
+    .heading h1{
+        font-size: 1.2rem;
+    }
+    .about{
+        grid-template-columns: repeat(auto-fit, minmax(20rem,auto));
+    }
+    .about-text{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn {
+        max-width: 164px;
+    }
+    .customers h2 {
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 642px){
+    .container img {
+        right: 0;
+        width: 370px;
+    }
+}
+
+@media(max-width: 546px){
+    .container img {
+        right: 0;
+        width: 370px;
+        height: 820px;
+        object-fit: contain;
+    }
+}
+
+@media(max-width: 370px){
+    .logo{
+        font-size: 1rem;
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+    }
+    .profile span {
+        font-size: 10px;
+    }
+    .home-text {
+        padding-bottom: 17rem;
+    }
+    .home-text span {
+        font-size: 0.8rem;
+    }
+    .home-text h1 {
+        font-size: 1.4rem;
+    }
+    .heading {
+        flex-direction: column;
+        text-align: center;
+    }
+    .heading .btn {
+        margin-top: 1rem;
+    }
+    .categories-container{
+        gap: 1.5rem;
+    }
+}
